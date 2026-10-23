@@ -1,0 +1,19 @@
+---
+title: "About"
+---
+
+::: {.profile-grid}
+::: {.profile-photo}
+![](assets/headshot.jpg){fig-alt="Professional headshot of Collin Taylor"}
+:::
+
+::: {.profile-copy}
+# Collin Taylor
+
+I am a University of South Florida student with interests in **risk management, insurance, business analytics, and data-driven decision-making**. Through RMI 4226, I have been building practical experience using R, Quarto, data manipulation, visualization, and statistical analysis to understand risk and insurance problems.
+
+I am especially interested in applying analytical tools to real business decisions and communicating results in a clear, professional way.
+
+[Connect with me on LinkedIn](https://www.linkedin.com/in/collin-taylor-766073290/){.btn .btn-primary target="_blank"}
+:::
+:::

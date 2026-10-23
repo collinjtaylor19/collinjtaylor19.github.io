@@ -1,0 +1,18 @@
+---
+title: "Homework"
+---
+
+## RMI 4226 — Homework 3
+
+Homework 3 focuses on reshaping insurance-company asset data between long and wide formats and creating visualizations with `ggplot2`. The re-edited version includes the completed data preparation, ratio calculations, box plots, faceted comparisons, stacked-bar visualization, and a concise summary of findings.
+
+[Open Homework 3](homework3.html){.btn .btn-primary target="_blank"}
+
+### Topics included
+
+- Data loading and filtering
+- `pivot_wider()` and `pivot_longer()`
+- Bond and stock ratio calculations
+- Point charts and box plots
+- Faceted visualizations by company type
+- Average bond/stock ratio comparison

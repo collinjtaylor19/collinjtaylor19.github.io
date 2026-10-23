@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Collin Taylor"
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: homework.qmd
+        text: Homework
+    right:
+      - text: LinkedIn
+        href: https://www.linkedin.com/in/collin-taylor-766073290/
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    page-layout: full
+
+execute:
+  freeze: auto

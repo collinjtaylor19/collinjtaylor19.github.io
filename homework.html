@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Collin Taylor | Homework</title>
+<style>
+body {
+  background: #f7f8fa;
+}
+
+.navbar {
+  box-shadow: 0 1px 0 rgba(0,0,0,.08);
+}
+
+.profile-grid {
+  max-width: 1050px;
+  margin: 2.5rem auto;
+  display: grid;
+  grid-template-columns: minmax(280px, 410px) 1fr;
+  gap: 3.5rem;
+  align-items: center;
+  padding: 2rem;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 14px 40px rgba(22, 35, 50, .08);
+}
+
+.profile-photo img {
+  width: 100%;
+  max-height: 610px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 14px;
+  display: block;
+}
+
+.profile-copy h1 {
+  font-size: clamp(2.2rem, 5vw, 3.7rem);
+  margin-bottom: 1rem;
+}
+
+.profile-copy p {
+  font-size: 1.08rem;
+  line-height: 1.75;
+}
+
+main.content {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  margin-top: .75rem;
+}
+
+@media (max-width: 800px) {
+  .profile-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin: 1rem;
+    padding: 1.2rem;
+  }
+
+  .profile-photo img {
+    max-height: 520px;
+  }
+}
+
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#26313c}
+.navbar{background:#fff;border-bottom:1px solid #edf0f3}
+.navwrap{max-width:1050px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:1rem 1.25rem}
+.brand{font-weight:700;color:#18324a;text-decoration:none;font-size:1.15rem}
+.links{display:flex;gap:1.2rem}
+.links a{color:#334155;text-decoration:none}
+.content-wrap{max-width:1050px;margin:2.5rem auto;padding:0 1.25rem}
+.homework-card{background:#fff;padding:2rem;border-radius:18px;box-shadow:0 14px 40px rgba(22,35,50,.08)}
+</style>
+</head>
+<body>
+<nav class="navbar">
+  <div class="navwrap">
+    <a class="brand" href="index.html">Collin Taylor</a>
+    <div class="links">
+      <a href="index.html">About</a>
+      <a href="homework.html">Homework</a>
+      <a href="https://www.linkedin.com/in/collin-taylor-766073290/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</nav>
+
+<main class="content-wrap">
+  <section class="homework-card">
+    <h1>Homework</h1>
+    <h2>RMI 4226 — Homework 3</h2>
+    <p>Homework 3 focuses on reshaping insurance-company asset data between long and wide formats and creating effective visualizations with <code>ggplot2</code>. The re-edited version includes completed data preparation, ratio calculations, point charts, box plots, faceted comparisons, a stacked-bar visualization, and a concise summary of findings.</p>
+    <p><a class="btn btn-primary" href="homework3.html">Open Homework 3</a></p>
+    <h3>Topics included</h3>
+    <ul>
+      <li>Data loading and filtering</li>
+      <li><code>pivot_wider()</code> and <code>pivot_longer()</code></li>
+      <li>Bond and stock ratio calculations</li>
+      <li>Point charts and box plots</li>
+      <li>Faceted visualizations by company type</li>
+      <li>Average bond/stock ratio comparison</li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>

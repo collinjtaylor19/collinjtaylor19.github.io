@@ -1,0 +1,61 @@
+body {
+  background: #f7f8fa;
+}
+
+.navbar {
+  box-shadow: 0 1px 0 rgba(0,0,0,.08);
+}
+
+.profile-grid {
+  max-width: 1050px;
+  margin: 2.5rem auto;
+  display: grid;
+  grid-template-columns: minmax(280px, 410px) 1fr;
+  gap: 3.5rem;
+  align-items: center;
+  padding: 2rem;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 14px 40px rgba(22, 35, 50, .08);
+}
+
+.profile-photo img {
+  width: 100%;
+  max-height: 610px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 14px;
+  display: block;
+}
+
+.profile-copy h1 {
+  font-size: clamp(2.2rem, 5vw, 3.7rem);
+  margin-bottom: 1rem;
+}
+
+.profile-copy p {
+  font-size: 1.08rem;
+  line-height: 1.75;
+}
+
+main.content {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  margin-top: .75rem;
+}
+
+@media (max-width: 800px) {
+  .profile-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin: 1rem;
+    padding: 1.2rem;
+  }
+
+  .profile-photo img {
+    max-height: 520px;
+  }
+}
